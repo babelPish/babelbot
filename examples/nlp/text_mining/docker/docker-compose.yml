@@ -1,0 +1,8 @@
+babelbot:
+  image: babelpish/babelbot:0.1
+  ports:
+    - "8888:8888"
+    - "6006:6006"
+  volumes:
+    - ../:/home/jovyan/work/babelbot
+  tty: true

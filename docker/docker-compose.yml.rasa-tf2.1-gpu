@@ -1,0 +1,11 @@
+babelbot:
+  image: babelpish/babelbot:rasa-tf2.1-gpu
+  ports:
+    - "7077:8888"
+  volumes:
+    - ../:/home/jovyan
+  user: root
+  environment:
+      TZ: "Asia/Seoul"
+  working_dir: "/home/jovyan"
+  tty: true
