@@ -4,3 +4,6 @@
 [submodule "nlp/chatbot/rasa/rasa-ted-demo"]
 	path = examples/nlp/chatbot/rasa/rasa-ted-demo
 	url = https://github.com/RasaHQ/rasa-ted-demo.git
+[submodule "examples/nlp/chatbot/rasa/rasa-ted-demo"]
+	path = examples/nlp/chatbot/rasa/rasa-ted-demo
+	url = https://github.com/RasaHQ/rasa-ted-demo
