@@ -39,6 +39,8 @@ install:
 install_rasa:
 	pip install rasa
 	pip install rasa-x -i https://pypi.rasa.com/simple
+	pip install rasa[convert]
+	pip install rasa[transformers]
 
 install_mecab:
 	sh scripts/mecab-ko/install.sh

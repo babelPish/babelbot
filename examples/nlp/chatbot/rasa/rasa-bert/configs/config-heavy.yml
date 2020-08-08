@@ -1,0 +1,9 @@
+language: en
+pipeline:
+- name: HFTransformersNLP
+  model_weights: "bert-base-uncased"
+  model_name: "bert"
+- name: LanguageModelTokenizer
+- name: LanguageModelFeaturizer
+- name: DIETClassifier
+  epochs: 200
