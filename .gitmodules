@@ -10,3 +10,6 @@
 [submodule "examples/nlp/chatbot/chatbot_basic/building-chatbots-with-python"]
 	path = examples/nlp/chatbot/chatbot_basic/building-chatbots-with-python
 	url = https://github.com/Apress/building-chatbots-with-python.git
+[submodule "examples/nlp/chatbot/rasa/rasa-demo"]
+	path = examples/nlp/chatbot/rasa/rasa-demo
+	url = https://github.com/RasaHQ/rasa-demo.git
