@@ -1,0 +1,218 @@
+actions:
+  - utter_ask_객실종류
+  - utter_ask_고객정보
+  - utter_ask_기간
+  - utter_ask_끝날짜
+  - utter_ask_날짜
+  - utter_ask_이름
+  - utter_ask_이용시간
+  - utter_ask_인원
+  - utter_ask_휴대폰번호
+  - utter_core_fallback
+  - utter_fallback
+  - utter_greet
+  - utter_nlu_fallback
+  - utter_가격_답변
+  - action_reset_all_slot
+
+entities:
+  - date
+  - number
+  - person
+  - 객실
+  - 객실종류
+  - 기간
+  - 끝날짜
+  - 날짜
+  - 뷰종류
+  - 생년월일
+  - 시작날짜
+  - 요일
+  - 이름
+  - 인원
+  - 휴대폰번호
+
+forms:
+  - booking_form
+  - booking_form2
+  - customer_info_form
+
+
+intents:
+  - 인사
+  - 호텔-예약문의-일반
+  - 호텔-예약문의-시작끝
+  - 호텔-예약문의-요일
+  - inform-기간
+  - inform-객실종류
+  - inform-인원수
+  - inform-고객정보
+  - inform-날짜
+  - inform-뷰종류
+  - 긍정
+  - 부정
+  - stop
+  - 호텔-추가인원베드문의
+  - 호텔-객실종류-가격문의
+#  - 호텔-예약변경문의-객실종류
+#  - 호텔-예약변경문의-날짜
+#  - 호텔-예약변경문의-체크인날짜
+#  - 호텔-예약변경문의-체크아웃날짜
+  - out_of_scope
+
+responses:
+  utter_ask_객실종류:
+  - text: 네, 어떤 방으로 예약해드릴까요
+  - text: 네, 고객님 혹시 봐두신 객실이 따로 있으신가요?
+  - text: 네, 어떤 방 원하시나요?
+  - text: 방은 어떻게 준비해드릴까요?
+  - text: 네, 어떤 타입의 룸으로 도와드릴까요?
+  - text: 어떤 객실을 선택하시겠어요?
+  - text: 원하시는 객실 타입 있으신가요?
+  - text: 원하시는 객실 유형 말씀해주세요
+  - text: 어떤 룸 타입으로 예약하시겠어요?
+#    buttons:
+#    - title: 스탠다드룸
+#      payload: '/inform-객실종류{"객실종류": "스탠다드룸"}'
+#    - title: 슈페리어룸
+#      payload: '/inform-객실종류{"객실종류": "슈페리어룸"}'
+#    - title: 디럭스룸
+#      payload: '/inform-객실종류{"객실종류": "디럭스룸"}'
+#    - title: 이그제큐티브룸
+#      payload: '/inform-객실종류{"객실종류": "이그제큐티브룸"}'
+  utter_ask_고객정보:
+  - text: 성함과 연락처 말씀해주시겠습니까?
+  - text: 예약자분 성함과 연락처 부탁드릴게요
+  - text: 예약하시는 분 성함과 전화번호 알려주세요
+  - text: 예약하시는 분 성함과 휴대폰 번호 알려주세요
+  - text: 네, 성함과 휴대폰 번호 말씀해주시겠어요?
+  - text: 네, 성함과 전화번호 말씀해주시겠어요?
+  utter_ask_기간:
+  - text: 며칠동안 묵으실 예정이신가요?
+  - text: 며칠 투숙하실 건가요?
+  - text: 숙박은 며칠 하실 건가요?
+  - text: 몇 박 하실 건가요?
+  - text: 며칠 연박 예정이신가요?
+  utter_ask_끝날짜:
+  - text: 언제까지 숙박을 하시나요?
+  - text: 고객님 숙박하시는 마지막 날짜가 어떻게 되나요?
+  utter_ask_날짜:
+  - text: 언제로 예약하시겠어요?
+  - text: 원하시는 예약 시작날짜를 말씀해주세요
+  - text: 숙박 원하시는 시작날짜를 말씀해주세요
+  utter_ask_이름:
+  - text: 예약자 성함이 어떻게 되세요?
+  - text: 성함이 어떻게 되세요?
+  - text: 성함 말씀 해주실래요?
+  - text: 성함이 어떻게 되시죠?
+  - text: 예약자 성함이 어떻게 되세요?
+  - text: 예약자분 이름이 어떻게 되시나요?
+  - text: 예약자 성함이 어떻게 되시죠?
+  - text: 네, 성함이 어떻게 되시죠?
+  - text: 성함이 어떻게 되시나요?
+  - text: 예약자분 성함 알려 주실래요?
+  - text: 예약자분 성함이 어떻게 되세요?
+  - text: 예약자분 성함이 어떻게 되시나요?
+  utter_ask_이용시간:
+  - text: 몇 시 체크아웃 원하시나요?
+  - text: 체크인은 몇 시쯤 예상하시나요?
+  utter_ask_인원:
+  - text: 몇 분이신가요?
+  - text: 투숙은 몇 명이 하시나요?
+  - text: 인원은 몇 명인가요?
+  - text: 몇 분이서 숙박하실 건가요?
+  - text: 몇 분이 사용하실 거죠?
+  - text: 몇 명이서 숙박하세요?
+  - text: 몇 명이세요?
+  - text: 인원이 어떻게 되시죠?
+  - text: 몇 명 묵으세요?
+  - text: 몇 분이서 사용하실 건가요?
+  - text: 총 몇 분이 이용하실 건가요?
+  - text: 몇 분이서 머무르시죠?
+  - text: 숙박 인원은 몇 명이신가요?
+  - text: 총원 몇 명이신가요?
+  - text: 몇 분이서 이용 예정이신가요?
+  - text: 인원이 몇 명인가요?
+  - text: 몇 분 정도 숙박하실 예정이신가요?
+  - text: 몇 분이신가요?
+  - text: 투숙하시는 분이 총 몇 분 되나요?
+  - text: 몇 분이신가요?
+  - text: 인원이 몇 명이죠?
+  - text: 몇 분이 이용하시는 거예요?
+  - text: 인원이 몇 분이세요?
+  - text: 투숙하시려는 인원은 몇 분이세요?
+  - text: 몇 분이세요?
+  - text: 예약은 가능하시고 몇 분이 오시나요?
+  - text: 몇 분이신가요?
+  - text: 몇 분 오세요?
+  - text: 예약할 수 있으시고 몇 분 투숙 예정이세요?
+  - text: 투숙하시는 인원이 어떻게 되시나요?
+  utter_ask_휴대폰번호:
+  - text: 휴대폰 번호 말씀해주시겠어요?
+  - text: 휴대폰 번호 맨 앞자리부터 말씀해주시겠어요?
+  utter_core_fallback:
+  - text: prediction of next action failed...
+  utter_fallback:
+  - text: 무슨 말씀이신지 이해가 안 됩니다. 다시 말씀해 주세요
+  utter_greet:
+  - text: 정성을 다하는 SK 호텔입니다. 무엇을 도와드릴까요?
+  utter_nlu_fallback:
+  - text: intent detection failed...
+  utter_가격_답변:
+  - text: 할인된 금액이라 십만원이에요
+  - text: 네, 객실 요금이 이십삼만 원이에요
+  - text: '{객실종류}은 십삼만 이천 원이에요'
+  utter_process_stopped:
+    - text: 작업을 중단하였습니다.
+  utter_anythingelse:
+    - text: "더 필요하신 것이 있으신가요?"
+
+
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+
+slots:
+  date:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  가격:
+    type: unfeaturized
+  객실종류:
+    type: unfeaturized
+  기간:
+    type: unfeaturized
+  끝날짜:
+    type: unfeaturized
+  나이:
+    type: unfeaturized
+  날짜:
+    type: unfeaturized
+  뷰종류:
+    type: unfeaturized
+  수량:
+    type: unfeaturized
+  시간:
+    type: unfeaturized
+  시간표현:
+    type: unfeaturized
+  시작날짜:
+    type: unfeaturized
+  식사:
+    type: unfeaturized
+  연령대:
+    type: unfeaturized
+  요일:
+    type: unfeaturized
+  이름:
+    type: unfeaturized
+  인원:
+    type: unfeaturized
+  층수:
+    type: unfeaturized
+  침대종류:
+    type: unfeaturized
+  휴대폰번호:
+    type: unfeaturized
+

@@ -1,0 +1,164 @@
+{
+  "기간": {
+    "precision": 0.8979591836734694,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.6616541353383458,
+    "support": 84
+  },
+  "요일": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16
+  },
+  "비치품목": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "시간표현": {
+    "precision": 0.7941176470588235,
+    "recall": 0.627906976744186,
+    "f1-score": 0.7012987012987012,
+    "support": 43
+  },
+  "나이": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "가구종류": {
+    "precision": 0.25,
+    "recall": 0.4,
+    "f1-score": 0.3076923076923077,
+    "support": 5
+  },
+  "연령대": {
+    "precision": 0.9772727272727273,
+    "recall": 0.9347826086956522,
+    "f1-score": 0.9555555555555557,
+    "support": 46
+  },
+  "식사": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "룸컨디션": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5
+  },
+  "객실": {
+    "precision": 0.6486486486486487,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.75,
+    "support": 27
+  },
+  "뷰종류": {
+    "precision": 0.9583333333333334,
+    "recall": 0.9583333333333334,
+    "f1-score": 0.9583333333333334,
+    "support": 24
+  },
+  "이름": {
+    "precision": 0.9666666666666667,
+    "recall": 0.8055555555555556,
+    "f1-score": 0.8787878787878789,
+    "support": 36
+  },
+  "시간": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "인원": {
+    "precision": 0.7368421052631579,
+    "recall": 0.927710843373494,
+    "f1-score": 0.8213333333333332,
+    "support": 166
+  },
+  "휴대폰번호": {
+    "precision": 1.0,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.6875000000000001,
+    "support": 21
+  },
+  "date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8
+  },
+  "목욕시설": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "침대종류": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "수량": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12
+  },
+  "가족단위": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "객실종류": {
+    "precision": 0.927536231884058,
+    "recall": 0.6956521739130435,
+    "f1-score": 0.7950310559006211,
+    "support": 92
+  },
+  "성별": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "날짜": {
+    "precision": 0.7799043062200957,
+    "recall": 0.9819277108433735,
+    "f1-score": 0.8693333333333333,
+    "support": 166
+  },
+  "number": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "micro avg": {
+    "precision": 0.8085676037483266,
+    "recall": 0.7864583333333334,
+    "f1-score": 0.7973597359735973,
+    "support": 768
+  },
+  "macro avg": {
+    "precision": 0.4949357216920507,
+    "recall": 0.434793491901385,
+    "f1-score": 0.4434137870826944,
+    "support": 768
+  },
+  "weighted avg": {
+    "precision": 0.8050335291525065,
+    "recall": 0.7864583333333334,
+    "f1-score": 0.7751170820415269,
+    "support": 768
+  }
+}

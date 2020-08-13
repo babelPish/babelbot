@@ -1,0 +1,3402 @@
+[
+  {
+    "text": "사월 육일 일박 이일, 저희 예약이 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "사월 육일",
+        "entity": "날짜"
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "value": "일박 이일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 5,
+        "value": "사월 육일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 6,
+        "end": 8,
+        "value": "일박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 10,
+        "end": 11,
+        "value": "일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5월 5일5일 어린이날 예약하고 싶은데 방이 있을까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "5월 5일",
+        "entity": "날짜"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "5일",
+        "entity": "기간"
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "value": "어린이날",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 5,
+        "value": "5월 5일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 5,
+        "end": 7,
+        "value": "5일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 8,
+        "end": 11,
+        "value": "어린이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 22,
+        "end": 23,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5월 20일 토요일에 예약 가능한 방 있을까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "5월 20일",
+        "entity": "날짜"
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "value": "토요일",
+        "entity": "요일"
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 6,
+        "value": "5월 20일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "요일",
+        "start": 7,
+        "end": 10,
+        "value": "토요일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2인실로 예약 부탁드려도 되나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "2인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "2인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1인실 2개로 예약 될까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "1인실",
+        "entity": "객실종류"
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "value": "2개",
+        "entity": "수량"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "1인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 2,
+        "end": 3,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 4,
+        "end": 5,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "스위트룸은 침대가 3개인 방이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "스위트룸",
+        "entity": "객실종류"
+      },
+      {
+        "start": 6,
+        "end": 8,
+        "value": "침대",
+        "entity": "가구종류"
+      },
+      {
+        "start": 10,
+        "end": 12,
+        "value": "3개",
+        "entity": "수량"
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 4,
+        "value": "스위트룸",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "가구종류",
+        "start": 6,
+        "end": 8,
+        "value": "침대",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 10,
+        "end": 11,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 12,
+        "end": 13,
+        "value": "인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2인실 방 있나요? 침대방으로 할게요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "2인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "2인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 2,
+        "end": 3,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 4,
+        "end": 5,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "가구종류",
+        "start": 11,
+        "end": 13,
+        "value": "침대",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5인실 쓸 수 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "5인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "5인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 2,
+        "end": 3,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "10월 8일10월 8일이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "10월 8일",
+        "entity": "날짜"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "10월 8일",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 9,
+        "value": "10월 8일10월",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 10,
+        "end": 12,
+        "value": "8일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "한서준이오",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "한서준",
+        "entity": "이름"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 1,
+        "value": "한",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "이름",
+        "start": 1,
+        "end": 3,
+        "value": "서준",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "오박이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "오박",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 1,
+        "end": 2,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사흘동안이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "사흘",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "4일이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "4일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 2,
+        "value": "4일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "성인 2명에 어린이 2명입니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "2명",
+        "entity": "인원"
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "value": "어린이",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "2명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 7,
+        "end": 10,
+        "value": "어린이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 13,
+        "value": "2명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "총 네 명이에요",
+    "entities": [
+      {
+        "start": 2,
+        "end": 5,
+        "value": "네 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 4,
+        "end": 5,
+        "value": "명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "어린이 한 명 추가하면 룸을 바꿔야 하나요? 아니면 추가 비용을 내야 하나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "어린이",
+        "entity": "연령대"
+      },
+      {
+        "start": 4,
+        "end": 7,
+        "value": "한 명",
+        "entity": "인원"
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "value": "룸",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 3,
+        "value": "어린이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 4,
+        "end": 7,
+        "value": "한 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 13,
+        "end": 14,
+        "value": "룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "침대는 2개로 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "침대",
+        "entity": "비치품목"
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "value": "2개",
+        "entity": "수량"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "가구종류",
+        "start": 0,
+        "end": 2,
+        "value": "침대",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 4,
+        "end": 5,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "방 있나요?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "객실",
+        "start": 0,
+        "end": 1,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사월 이십칠일 경에 일박 묵고 싶은데 방이 보통 가족들 쓸 수 있는 방이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "사월 이십칠일",
+        "entity": "날짜"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "value": "일박",
+        "entity": "기간"
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 7,
+        "value": "사월 이십칠일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 11,
+        "end": 12,
+        "value": "일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 12,
+        "end": 13,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 21,
+        "end": 22,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 38,
+        "end": 39,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "삼월 이십일 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "삼월 이십일",
+        "entity": "날짜"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 2,
+        "value": "삼월",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 4,
+        "end": 6,
+        "value": "십일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사월 이십일 일박 이일로 예약이 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "사월 이십일",
+        "entity": "날짜"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "일박 이일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 2,
+        "value": "사월",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 4,
+        "end": 8,
+        "value": "십일 일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 8,
+        "end": 9,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 11,
+        "end": 12,
+        "value": "일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사월 십삽일 일박 이일로 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "사월 십삽일",
+        "entity": "날짜"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "일박 이일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 4,
+        "value": "사월 십",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 5,
+        "end": 8,
+        "value": "일 일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 8,
+        "end": 9,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 11,
+        "end": 12,
+        "value": "일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사월 육일 일박 이일로 예약이 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "사월 육일",
+        "entity": "날짜"
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "value": "일박 이일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 7,
+        "value": "사월 육일 일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 7,
+        "end": 8,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 10,
+        "end": 11,
+        "value": "일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2인실 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "2인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 2,
+        "end": 3,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "인원이 많아서 그런데 큰 방으로 가능한가요?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "value": "큰 방",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실",
+        "start": 14,
+        "end": 15,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "디럭스로 방 주실 수 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "디럭스",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 3,
+        "value": "디럭스",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 5,
+        "end": 6,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 8,
+        "end": 9,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "성인 둘 아기 한 명이 사용할 스위트룸 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "entity": "수량"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "아기",
+        "entity": "연령대"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "한 명",
+        "entity": "인원"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "스위트룸",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 5,
+        "end": 7,
+        "value": "아기",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 10,
+        "end": 11,
+        "value": "명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 17,
+        "end": 21,
+        "value": "스위트룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "다음 주 토요일에 숙박하려고 하는데요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "다음 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "entity": "요일"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "다음 주 토요일에 예약하고 싶은데요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "다음 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "entity": "요일"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "010-1234-5678에요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "010-1234-5678",
+        "entity": "휴대폰번호"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "휴대폰번호",
+        "start": 0,
+        "end": 4,
+        "value": "010-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 4,
+        "end": 8,
+        "value": "1234",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "휴대폰번호",
+        "start": 8,
+        "end": 9,
+        "value": "-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 9,
+        "end": 13,
+        "value": "5678",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3박 4일3박 4일이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "3박 4일",
+        "entity": "기간"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "value": "3박 4일",
+        "entity": "date"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 2,
+        "value": "3박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 3,
+        "end": 5,
+        "value": "4일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 5,
+        "end": 7,
+        "value": "3박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 8,
+        "end": 10,
+        "value": "4일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "성인 두 명에 아이 두 명 해서 묵으려고 하거든요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "value": "두 명",
+        "entity": "인원"
+      },
+      {
+        "start": 8,
+        "end": 10,
+        "value": "아이",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 6,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 8,
+        "end": 10,
+        "value": "아이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 14,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "성인 5명에 어린이 5명인데요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "5명",
+        "entity": "인원"
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "value": "어린이",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "5명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 7,
+        "end": 10,
+        "value": "어린이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 13,
+        "value": "5명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "한 여섯 명 이용하려고 하거든요",
+    "entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "value": "여섯 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 6,
+        "value": "한 여섯 명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "뷰는 상관없고 더블베드가 있으면 좋겠습니다",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "더블베드",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "뷰종류",
+        "start": 0,
+        "end": 1,
+        "value": "뷰",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 8,
+        "end": 12,
+        "value": "더블베드",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "몇 살부터 추가 요금 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "몇 살",
+        "entity": "나이"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "엑스트라 베드 추가는 얼마죠?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "베드",
+        "entity": "가구종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "가구종류",
+        "start": 0,
+        "end": 7,
+        "value": "엑스트라 베드",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "추가 인원에 대한 엑스트라 베드가 있나요?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "엑스트라 베드",
+        "entity": "침대종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "가구종류",
+        "start": 10,
+        "end": 17,
+        "value": "엑스트라 베드",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "4월 14일에 2박 3일로 예약해주실래요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "4월 14일",
+        "entity": "날짜"
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "value": "2박 3일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 6,
+        "value": "4월 14일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 8,
+        "end": 10,
+        "value": "2박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 13,
+        "value": "3일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주 금요일, 삼월 일일 룸이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "이번 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "금요일",
+        "entity": "요일"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "삼월 일일",
+        "entity": "날짜"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 4,
+        "value": "이번 주",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "금요일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 10,
+        "end": 15,
+        "value": "삼월 일일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 16,
+        "end": 17,
+        "value": "룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "남자 3명이 묵을만한 방 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "남자",
+        "entity": "성별"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "3명",
+        "entity": "인원"
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "성별",
+        "start": 0,
+        "end": 2,
+        "value": "남자",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "3명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 10,
+        "end": 11,
+        "value": "한",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 12,
+        "end": 13,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "총 31명이 묵을 예정인데, 단체 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 2,
+        "end": 5,
+        "value": "31명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 2,
+        "end": 5,
+        "value": "31명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "호텔 당일 예약도 가능한가요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "당일",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "오늘 방 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 3,
+        "end": 4,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주말에 패밀리 B 숙소로 예약 부탁드려도 되나요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "주말",
+        "entity": "시간표현"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "패밀리 B 숙소",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 5,
+        "value": "이번 주말",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 7,
+        "end": 15,
+        "value": "패밀리 B 숙소",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "21일 숙박 가능한 투룸 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "21일",
+        "entity": "날짜"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "value": "투룸",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 3,
+        "value": "21일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 9,
+        "end": 13,
+        "value": "한 투룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "5인실로 예약 되나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "5인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "5인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "온돌방도 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "온돌방",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 1,
+        "value": "온",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "01012345678",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "01012345678",
+        "entity": "휴대폰번호"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 11,
+        "value": "01012345678",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1박 2일로 예약 부탁드립니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "1박 2일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 2,
+        "value": "1박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "2일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "어른 둘 아이 한 명이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "entity": "수량"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "아이",
+        "entity": "연령대"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "한 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 5,
+        "end": 7,
+        "value": "아이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 8,
+        "end": 11,
+        "value": "한 명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "어른 둘 아이 둘입니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "entity": "인원"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "아이",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 4,
+        "value": "둘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 5,
+        "end": 7,
+        "value": "아이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 8,
+        "end": 9,
+        "value": "둘",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "어른 2명 아이 2명 총 4명이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "2명",
+        "entity": "인원"
+      },
+      {
+        "start": 6,
+        "end": 8,
+        "value": "아이",
+        "entity": "연령대"
+      },
+      {
+        "start": 14,
+        "end": 16,
+        "value": "4명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "어른",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "2명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 6,
+        "end": 8,
+        "value": "아이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 9,
+        "end": 11,
+        "value": "2명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 14,
+        "end": 16,
+        "value": "4명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "트윈룸으로 주시고 선택 가능하면 샤워 부스 있는 욕실로 주세요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "트윈룸",
+        "entity": "객실종류"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "샤워 부스",
+        "entity": "목욕시설"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 3,
+        "value": "트윈룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "추가 인원 비용 얼마인지 알려주실 수 있나요?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 17,
+        "end": 18,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "헤이",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "이름",
+        "start": 0,
+        "end": 2,
+        "value": "헤이",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "빈 방 있나요?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "객실",
+        "start": 2,
+        "end": 3,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "사월 육일 일박 이일로 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "사월 육일",
+        "entity": "날짜"
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "value": "일박 이일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 7,
+        "value": "사월 육일 일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "기간",
+        "start": 7,
+        "end": 8,
+        "value": "박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 9,
+        "end": 11,
+        "value": "이일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "호텔에 남는 2인용 객실 있나요?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "value": "2인",
+        "entity": "인원"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "value": "객실",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 7,
+        "end": 8,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 11,
+        "end": 13,
+        "value": "객실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "지금 1인 객실 있나요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "1인",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "1인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 6,
+        "end": 8,
+        "value": "객실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "오늘 숙박 가능한 방이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 8,
+        "end": 9,
+        "value": "한",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 10,
+        "end": 11,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "오늘 숙박 가능한 방 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "entity": "시간표현"
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 8,
+        "end": 9,
+        "value": "한",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 10,
+        "end": 11,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "오늘 밤 3명 숙박 예약 가능할까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "오늘",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "3명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 4,
+        "value": "오늘 밤",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 5,
+        "end": 7,
+        "value": "3명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "숙박 7일 예약 되나요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "7일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "7일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "디럭스룸 조식 포함 방으로 주실래요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "디럭스룸",
+        "entity": "객실종류"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "조식",
+        "entity": "식사"
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 4,
+        "value": "디럭스룸",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 11,
+        "end": 12,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "남자 3명이서 잘 건데 디럭스룸에 침대 3개 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "남자",
+        "entity": "성별"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "3명",
+        "entity": "인원"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "디럭스룸",
+        "entity": "객실종류"
+      },
+      {
+        "start": 19,
+        "end": 21,
+        "value": "침대",
+        "entity": "가구종류"
+      },
+      {
+        "start": 22,
+        "end": 24,
+        "value": "3개",
+        "entity": "수량"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "성별",
+        "start": 0,
+        "end": 2,
+        "value": "남자",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 5,
+        "value": "3명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 13,
+        "end": 17,
+        "value": "디럭스룸",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 22,
+        "end": 24,
+        "value": "3개",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주말 트윈룸으로 하나 예약해주실래요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "주말",
+        "entity": "시간표현"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "트윈룸",
+        "entity": "객실종류"
+      },
+      {
+        "start": 12,
+        "end": 14,
+        "value": "하나",
+        "entity": "수량"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 5,
+        "value": "이번 주말",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 6,
+        "end": 9,
+        "value": "트윈룸",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "수량",
+        "start": 12,
+        "end": 14,
+        "value": "하나",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "전망이 좋고 고층에 있는 객실 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "전망이 좋고",
+        "entity": "룸컨디션"
+      },
+      {
+        "start": 7,
+        "end": 9,
+        "value": "고층",
+        "entity": "룸컨디션"
+      },
+      {
+        "start": 14,
+        "end": 16,
+        "value": "객실",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실",
+        "start": 14,
+        "end": 16,
+        "value": "객실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주 일요일에 가족이 머물 건데 방이 혹시 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "이번 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "일요일",
+        "entity": "요일"
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "value": "방",
+        "entity": "객실"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "이번",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "일요일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 20,
+        "end": 21,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "유예준요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "유예준",
+        "entity": "이름"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "김땡땡입니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "김땡땡",
+        "entity": "이름"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 1,
+        "value": "김",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "01012345678에요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "01012345678",
+        "entity": "휴대폰번호"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 11,
+        "value": "01012345678",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이틀이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "이틀",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "이틀",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "초등학생 두 명하고 성인 두 명,총 네 명이 이용하려고요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "초등학생",
+        "entity": "연령대"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "두 명",
+        "entity": "인원"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "value": "두 명",
+        "entity": "인원"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "value": "네 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 5,
+        "end": 8,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 11,
+        "end": 13,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 14,
+        "end": 17,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 22,
+        "end": 23,
+        "value": "명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "4인실이 필요해요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "4인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "4인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 2,
+        "end": 3,
+        "value": "실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "인당 추가요금은 얼마인가요?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 1,
+        "value": "인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "잠시만요 다음에 할게요",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 5,
+        "end": 7,
+        "value": "다음",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "다음에 예약할게요",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "다음",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "삼월 이일은 룸이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "삼월 이일",
+        "entity": "날짜"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 5,
+        "value": "삼월 이일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 7,
+        "end": 8,
+        "value": "룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "6인 이상 쓸 수 있는 객실이 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "6인",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 2,
+        "value": "6인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 13,
+        "end": 15,
+        "value": "객실",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "두 명이 이용 할 수 있는 방으로 예약되나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "두 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 3,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 15,
+        "end": 16,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "모레 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "모레",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "내일 오전 11시로 4인 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "내일",
+        "entity": "시간표현"
+      },
+      {
+        "start": 3,
+        "end": 9,
+        "value": "오전 11시",
+        "entity": "시간"
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "value": "4인",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 2,
+        "value": "내일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "요일",
+        "start": 3,
+        "end": 5,
+        "value": "오전",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 6,
+        "end": 8,
+        "value": "11",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 13,
+        "value": "4인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2박 3일 지내고 싶은데 언제부터 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "2박 3일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 2,
+        "value": "2박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 3,
+        "end": 5,
+        "value": "3일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "트윈으로 하면 애들하고 같이 잘 수 있을까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "트윈",
+        "entity": "객실종류"
+      },
+      {
+        "start": 8,
+        "end": 10,
+        "value": "애들",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 0,
+        "end": 2,
+        "value": "트윈",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "VIP 룸으로 예약가능한가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "VIP 룸",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 4,
+        "end": 5,
+        "value": "룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주말에 패밀리 A 숙소 예약 가능한가요?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 5,
+        "value": "주말",
+        "entity": "시간표현"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "value": "패밀리 A 숙소",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "시간표현",
+        "start": 0,
+        "end": 5,
+        "value": "이번 주말",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 7,
+        "end": 10,
+        "value": "패밀리",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 13,
+        "end": 15,
+        "value": "숙소",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2인실로 예약 할 수 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "2인실",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "2인",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "이번 주 토요일 예약을 하려는 데 가능할까요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "이번 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "entity": "요일"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "다음 주 토요일로 예약하고 싶은데, 방 있나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "다음 주",
+        "entity": "시간표현"
+      },
+      {
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "entity": "요일"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "요일",
+        "start": 5,
+        "end": 8,
+        "value": "토요일",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 20,
+        "end": 21,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "오월 첫 주에요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "오월 첫 주",
+        "entity": "시간표현"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 2,
+        "value": "오월",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 4,
+        "value": "첫",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "도민준요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "도민준",
+        "entity": "이름"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "이름",
+        "start": 2,
+        "end": 3,
+        "value": "준",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "010-3754-5678입니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "010-3754-5678",
+        "entity": "휴대폰번호"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 3,
+        "value": "010",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "휴대폰번호",
+        "start": 3,
+        "end": 4,
+        "value": "-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 4,
+        "end": 8,
+        "value": "3754",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "휴대폰번호",
+        "start": 8,
+        "end": 9,
+        "value": "-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 9,
+        "end": 13,
+        "value": "5678",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "010-1234-5678",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "010-1234-5678",
+        "entity": "휴대폰번호"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 3,
+        "value": "010",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "휴대폰번호",
+        "start": 3,
+        "end": 4,
+        "value": "-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 4,
+        "end": 8,
+        "value": "1234",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "휴대폰번호",
+        "start": 8,
+        "end": 9,
+        "value": "-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 9,
+        "end": 13,
+        "value": "5678",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3박 4일 예정입니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "3박 4일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "날짜",
+        "start": 0,
+        "end": 5,
+        "value": "3박 4일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2박 3일",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "2박 3일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 2,
+        "value": "2박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 3,
+        "end": 5,
+        "value": "3일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2박 3일하려고요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "2박 3일",
+        "entity": "기간"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "기간",
+        "start": 0,
+        "end": 2,
+        "value": "2박",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 3,
+        "end": 5,
+        "value": "3일",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "저희 총 오인이 묵으려고 하거든요",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "오인",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "한 가족인데 세 명이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "한 가족",
+        "entity": "가족단위"
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "value": "세 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 1,
+        "value": "한",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 7,
+        "end": 10,
+        "value": "세 명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "네 명이에요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "네 명",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 2,
+        "end": 3,
+        "value": "명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "성인 두 명과 아이 두 명이요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "entity": "연령대"
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "value": "두 명",
+        "entity": "인원"
+      },
+      {
+        "start": 8,
+        "end": 10,
+        "value": "아이",
+        "entity": "연령대"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "연령대",
+        "start": 0,
+        "end": 2,
+        "value": "성인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 3,
+        "end": 6,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "연령대",
+        "start": 8,
+        "end": 10,
+        "value": "아이",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 11,
+        "end": 14,
+        "value": "두 명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2명2명 일거에요",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "2명",
+        "entity": "인원"
+      },
+      {
+        "start": 2,
+        "end": 4,
+        "value": "2명",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 4,
+        "value": "2명2명",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "바다 쪽이면 좋습니다",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "바다 쪽",
+        "entity": "뷰종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "뷰종류",
+        "start": 0,
+        "end": 2,
+        "value": "바다",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "날짜",
+        "start": 3,
+        "end": 4,
+        "value": "쪽",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "모두 싱글 투 베드 룸으로 예약하고 싶습니다",
+    "entities": [
+      {
+        "start": 3,
+        "end": 12,
+        "value": "싱글 투 베드 룸",
+        "entity": "객실종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "객실종류",
+        "start": 6,
+        "end": 7,
+        "value": "투",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "가구종류",
+        "start": 8,
+        "end": 10,
+        "value": "베드",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실종류",
+        "start": 11,
+        "end": 12,
+        "value": "룸",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2인 기준 방에 3인 예약하려는데, 추가 금액은 얼마인가요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "2인",
+        "entity": "인원"
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "value": "방",
+        "entity": "객실"
+      },
+      {
+        "start": 9,
+        "end": 11,
+        "value": "3인",
+        "entity": "인원"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "인원",
+        "start": 0,
+        "end": 2,
+        "value": "2인",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "객실",
+        "start": 6,
+        "end": 7,
+        "value": "방",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "인원",
+        "start": 9,
+        "end": 10,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "엑스트라 베드 추가할 경우 추가 요금이 발생하나요?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "엑스트라 베드",
+        "entity": "가구종류"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "침대종류",
+        "start": 0,
+        "end": 7,
+        "value": "엑스트라 베드",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
