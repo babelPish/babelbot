@@ -13,6 +13,7 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
+  - name: "custom.regexExtractor.regexExtractor.RegexExtractor"
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
