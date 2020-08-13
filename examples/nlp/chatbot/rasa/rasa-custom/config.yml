@@ -1,0 +1,22 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: sentiment.SentimentAnalyzer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
+  - name: EmbeddingIntentClassifier
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: MappingPolicy
