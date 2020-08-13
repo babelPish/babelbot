@@ -44,6 +44,7 @@ install_rasa:
 
 install_mecab:
 	sh scripts/mecab-ko/install.sh
+	pip install mecab
 
 check_mecab:
 	mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic

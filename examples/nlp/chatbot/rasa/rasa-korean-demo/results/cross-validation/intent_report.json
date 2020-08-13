@@ -1,0 +1,141 @@
+{
+  "inform-날짜": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 10,
+    "confused_with": {
+      "호텔-예약문의-일반": 2,
+      "inform-고객정보": 2
+    }
+  },
+  "호텔-예약문의-일반": {
+    "precision": 0.8129496402877698,
+    "recall": 0.9912280701754386,
+    "f1-score": 0.8932806324110673,
+    "support": 114,
+    "confused_with": {
+      "호텔-예약문의-요일": 1
+    }
+  },
+  "inform-기간": {
+    "precision": 0.6666666666666666,
+    "recall": 0.13333333333333333,
+    "f1-score": 0.2222222222222222,
+    "support": 15,
+    "confused_with": {
+      "호텔-예약문의-일반": 4,
+      "inform-고객정보": 4,
+      "inform-인원수": 2
+    }
+  },
+  "stop": {
+    "precision": 0.7777777777777778,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.6666666666666666,
+    "support": 12,
+    "confused_with": {
+      "호텔-예약문의-일반": 1,
+      "인사": 1
+    }
+  },
+  "인사": {
+    "precision": 0.3333333333333333,
+    "recall": 0.2,
+    "f1-score": 0.25,
+    "support": 5,
+    "confused_with": {
+      "긍정": 1,
+      "stop": 1
+    }
+  },
+  "inform-고객정보": {
+    "precision": 0.72,
+    "recall": 0.972972972972973,
+    "f1-score": 0.8275862068965518,
+    "support": 37,
+    "confused_with": {
+      "긍정": 1
+    }
+  },
+  "inform-인원수": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 48,
+    "confused_with": {}
+  },
+  "inform-객실종류": {
+    "precision": 0.6,
+    "recall": 0.375,
+    "f1-score": 0.4615384615384615,
+    "support": 16,
+    "confused_with": {
+      "호텔-예약문의-일반": 6,
+      "inform-고객정보": 2
+    }
+  },
+  "긍정": {
+    "precision": 0.625,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.5882352941176471,
+    "support": 9,
+    "confused_with": {
+      "인사": 1,
+      "inform-인원수": 1
+    }
+  },
+  "호텔-예약문의-요일": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "호텔-예약문의-일반": 6,
+      "inform-인원수": 2
+    }
+  },
+  "호텔-추가인원베드문의": {
+    "precision": 1.0,
+    "recall": 0.5882352941176471,
+    "f1-score": 0.7407407407407407,
+    "support": 17,
+    "confused_with": {
+      "호텔-예약문의-일반": 6,
+      "inform-인원수": 1
+    }
+  },
+  "inform-뷰종류": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 9,
+    "confused_with": {
+      "inform-인원수": 1,
+      "inform-고객정보": 1
+    }
+  },
+  "부정": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 9,
+    "confused_with": {
+      "inform-인원수": 2,
+      "inform-고객정보": 2
+    }
+  },
+  "accuracy": 0.7799352750809061,
+  "macro avg": {
+    "precision": 0.6924918526717087,
+    "recall": 0.5230506584221755,
+    "f1-score": 0.5597887962751911,
+    "support": 309
+  },
+  "weighted avg": {
+    "precision": 0.7635639449605365,
+    "recall": 0.7799352750809061,
+    "f1-score": 0.7417161588627397,
+    "support": 309
+  }
+}
