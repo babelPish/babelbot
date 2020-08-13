@@ -1,0 +1,546 @@
+[
+  {
+    "text": "안녕",
+    "intent": "인사",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.4997865855693817
+    }
+  },
+  {
+    "text": "수요일에 세 명 예약 부탁드려도 되나요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9965463876724243
+    }
+  },
+  {
+    "text": "이번 주 토요일에 숙박 예약하려고 하는데, 되나요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.7630763649940491
+    }
+  },
+  {
+    "text": "삼월 이십팔일 목요일이요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.6833434700965881
+    }
+  },
+  {
+    "text": "오박이요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.36570900678634644
+    }
+  },
+  {
+    "text": "사흘동안이요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.3513442873954773
+    }
+  },
+  {
+    "text": "4일이요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.3369996249675751
+    }
+  },
+  {
+    "text": "네, 바다가 보였으면 해요",
+    "intent": "inform-뷰종류",
+    "intent_prediction": {
+      "name": "inform-객실종류",
+      "confidence": 0.3098314106464386
+    }
+  },
+  {
+    "text": "패밀리룸이요",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.40101537108421326
+    }
+  },
+  {
+    "text": "디럭스룸",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.41932299733161926
+    }
+  },
+  {
+    "text": "네, 좋습니다",
+    "intent": "긍정",
+    "intent_prediction": {
+      "name": "inform-기간",
+      "confidence": 0.22628414630889893
+    }
+  },
+  {
+    "text": "시러",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.32485127449035645
+    }
+  },
+  {
+    "text": "어린이 한 명 추가하면 룸을 바꿔야 하나요? 아니면 추가 비용을 내야 하나요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.4954136610031128
+    }
+  },
+  {
+    "text": "침대는 2개로 가능한가요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9970645904541016
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "인사",
+    "intent_prediction": {
+      "name": "긍정",
+      "confidence": 0.382508248090744
+    }
+  },
+  {
+    "text": "다음 주 토요일에 숙박하려고 하는데요",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.7303571701049805
+    }
+  },
+  {
+    "text": "다음 주 토요일에 예약하고 싶은데요",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.7928574085235596
+    }
+  },
+  {
+    "text": "4박으로 하려고 합니다",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.44219380617141724
+    }
+  },
+  {
+    "text": "2박으로 하려고 합니다",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.4258230924606323
+    }
+  },
+  {
+    "text": "3박 4일3박 4일이요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.8999835848808289
+    }
+  },
+  {
+    "text": "아이들이 있어서 온돌방으로 원합니다",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.8138560056686401
+    }
+  },
+  {
+    "text": "온돌방이 좋습니다",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.5648619532585144
+    }
+  },
+  {
+    "text": "뷰는 상관없고 더블베드가 있으면 좋겠습니다",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9536221027374268
+    }
+  },
+  {
+    "text": "네",
+    "intent": "긍정",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.29977500438690186
+    }
+  },
+  {
+    "text": "그건 별로고요 다른거요",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.8280462622642517
+    }
+  },
+  {
+    "text": "몇 살부터 추가 요금 있나요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.7750162482261658
+    }
+  },
+  {
+    "text": "한 명 더 같이 가게 되었는데, 추가가 가능한가요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.6664220690727234
+    }
+  },
+  {
+    "text": "안녕하세요",
+    "intent": "인사",
+    "intent_prediction": {
+      "name": "inform-객실종류",
+      "confidence": 0.3277242183685303
+    }
+  },
+  {
+    "text": "이번 주 금요일, 삼월 일일 룸이 있나요?",
+    "intent": "호텔-예약문의-일반",
+    "intent_prediction": {
+      "name": "호텔-예약문의-요일",
+      "confidence": 0.36875757575035095
+    }
+  },
+  {
+    "text": "이번 주 일요일에 숙박 가능한가요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.6992332339286804
+    }
+  },
+  {
+    "text": "3월 23일이에요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.5985991358757019
+    }
+  },
+  {
+    "text": "네, 삼월 구일이요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "inform-객실종류",
+      "confidence": 0.31892895698547363
+    }
+  },
+  {
+    "text": "1박만 일단 하겠습니다",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-객실종류",
+      "confidence": 0.3120574653148651
+    }
+  },
+  {
+    "text": "하루만 할게요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.799104630947113
+    }
+  },
+  {
+    "text": "1박 2일로 예약 부탁드립니다",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-뷰종류",
+      "confidence": 0.4782627820968628
+    }
+  },
+  {
+    "text": "트윈룸으로 주시고 선택 가능하면 샤워 부스 있는 욕실로 주세요",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.5589325428009033
+    }
+  },
+  {
+    "text": "트윈룸으로 주세요",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "inform-뷰종류",
+      "confidence": 0.5039611458778381
+    }
+  },
+  {
+    "text": "오키",
+    "intent": "긍정",
+    "intent_prediction": {
+      "name": "인사",
+      "confidence": 0.3504537045955658
+    }
+  },
+  {
+    "text": "싫습니다",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.47673335671424866
+    }
+  },
+  {
+    "text": "stop",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "인사",
+      "confidence": 0.2577454149723053
+    }
+  },
+  {
+    "text": "헤이",
+    "intent": "인사",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.48254939913749695
+    }
+  },
+  {
+    "text": "이번 주 일요일에 가족이 머물 건데 방이 혹시 있나요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.828472912311554
+    }
+  },
+  {
+    "text": "6월 5일 목요일이요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.47965335845947266
+    }
+  },
+  {
+    "text": "네, 하루 예약하려고요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.3960700035095215
+    }
+  },
+  {
+    "text": "이틀이요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.748972475528717
+    }
+  },
+  {
+    "text": "2박 하려고요",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.5020137429237366
+    }
+  },
+  {
+    "text": "오션뷰로 해주세요",
+    "intent": "inform-뷰종류",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.21214744448661804
+    }
+  },
+  {
+    "text": "4인실이 필요해요",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.39432090520858765
+    }
+  },
+  {
+    "text": "네, 바다가 보이는 디럭스 룸으로 예약하고 싶은데요",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.7726504802703857
+    }
+  },
+  {
+    "text": "음 그렇게 해주세요",
+    "intent": "긍정",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.3803696036338806
+    }
+  },
+  {
+    "text": "다른 건 없나요?",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.8236247897148132
+    }
+  },
+  {
+    "text": "3명이 들어갈 시 추가금이 붙나요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.6809820532798767
+    }
+  },
+  {
+    "text": "어른 두 명에 아이 한 명하면 추가 금액 있는지 궁금해요",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.9156087636947632
+    }
+  },
+  {
+    "text": "잠시만요 다음에 할게요",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "inform-고객정보",
+      "confidence": 0.45042914152145386
+    }
+  },
+  {
+    "text": "다음에 예약할게요",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "inform-뷰종류",
+      "confidence": 0.186671182513237
+    }
+  },
+  {
+    "text": "이번 주 토요일 예약을 하려는 데 가능할까요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9991833567619324
+    }
+  },
+  {
+    "text": "다음 주 토요일로 예약하고 싶은데, 방 있나요?",
+    "intent": "호텔-예약문의-요일",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9989887475967407
+    }
+  },
+  {
+    "text": "삼월 이십육일 화요일이에요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.8627579212188721
+    }
+  },
+  {
+    "text": "오월 첫 주에요",
+    "intent": "inform-날짜",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.19328875839710236
+    }
+  },
+  {
+    "text": "이시우",
+    "intent": "inform-고객정보",
+    "intent_prediction": {
+      "name": "긍정",
+      "confidence": 0.43653327226638794
+    }
+  },
+  {
+    "text": "3박 4일 예정입니다",
+    "intent": "inform-기간",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.20829857885837555
+    }
+  },
+  {
+    "text": "아니요 그러면 시티뷰로 할게요",
+    "intent": "inform-뷰종류",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.3216876685619354
+    }
+  },
+  {
+    "text": "모두 싱글 투 베드 룸으로 예약하고 싶습니다",
+    "intent": "inform-객실종류",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.4647282361984253
+    }
+  },
+  {
+    "text": "싫어",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.4124833047389984
+    }
+  },
+  {
+    "text": "ㄴㄴ",
+    "intent": "부정",
+    "intent_prediction": {
+      "name": "긍정",
+      "confidence": 0.23717255890369415
+    }
+  },
+  {
+    "text": "2인 기준 방에 3인 예약하려는데, 추가 금액은 얼마인가요?",
+    "intent": "호텔-추가인원베드문의",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.9391730427742004
+    }
+  },
+  {
+    "text": "예약 안할래",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "호텔-예약문의-일반",
+      "confidence": 0.817855954170227
+    }
+  },
+  {
+    "text": "그만할게",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "inform-인원수",
+      "confidence": 0.22604306042194366
+    }
+  }
+]
