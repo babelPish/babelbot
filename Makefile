@@ -15,6 +15,8 @@ help:
 	@echo "        Activate mecab shell."
 	@echo "    download_spacy"
 	@echo "        Download spaCy Lang models."
+	@echo "    download_nltk"
+	@echo "        Download nltk vocab & rc"
 	@echo "    formatter"
 	@echo "        Apply black formatting to code."
 	@echo "    lint"
@@ -44,13 +46,17 @@ install_rasa:
 
 install_mecab:
 	sh scripts/mecab-ko/install.sh
+	pip install mecab
 
 check_mecab:
 	mecab -d /usr/local/lib/mecab/dic/mecab-ko-dic
 
 download_spacy:
-	spacy download xx
-	spacy download en
+	poetry run python3 -m spacy download xx
+	poetry run python3 -m spacy download en
+
+download_nltk:
+	poetry run python3 -m nltk.downloader vader_lexicon
 
 update:
 	poetry update
