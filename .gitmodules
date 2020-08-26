@@ -14,5 +14,8 @@
 	path = examples/nlp/chatbot/rasa/rasa-bert/rasa-demo
 	url = https://github.com/RasaHQ/rasa-demo.git
 [submodule "examples/nlp/chatbot/rasa/spaCy-integration-demo"]
-	path = examples/nlp/chatbot/rasa/spaCy-integration-demo
+	path = examples/nlp/chatbot/rasa/rasa-spacy-demo/spaCy-integration-demo
 	url = https://github.com/RasaHQ/spaCy-integration-demo
+[submodule "examples/nlp/chatbot/rasa/rasa-tfboard-demo/rasa-demo"]
+	path = examples/nlp/chatbot/rasa/rasa-tfboard-demo/rasa-demo
+	url = https://github.com/RasaHQ/rasa-demo.git
