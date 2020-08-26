@@ -1,0 +1,33 @@
+language: en
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CRFEntityExtractor
+  - name: CountVectorsFeaturizer
+    OOV_token: "oov"
+    token_pattern: (?u)\b\w+\b
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 200
+    evaluate_on_number_of_examples: 0
+    evaluate_every_number_of_epochs: 5
+    tensorboard_log_directory: "./tensorboard"
+    tensorboard_log_level: "epoch"
+
+policies:
+  - name: TEDPolicy
+    max_history: 10
+    epochs: 200
+    evaluate_on_number_of_examples: 0
+    evaluate_every_number_of_epochs: 5
+    tensorboard_log_directory: "./tensorboard"
+    tensorboard_log_level: "epoch"
+  - max_history: 6
+    name: AugmentedMemoizationPolicy
+  - core_threshold: 0.3
+    name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8
+  - name: FormPolicy
+  - name: MappingPolicy
