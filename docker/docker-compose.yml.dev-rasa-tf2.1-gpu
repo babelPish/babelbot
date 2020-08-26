@@ -2,6 +2,7 @@ babelbot:
   image: babelpish/babelbot:dev-rasa-tf2.1-gpu
   ports:
     - "7077:8888"
+    - "7007:6006"
   volumes:
     - ../:/home/jovyan
   user: root
