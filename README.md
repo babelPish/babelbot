@@ -3,7 +3,8 @@
 
 ### study
 
-```최초 한번
+```sh
+# 최초 한번
 $ cd ROOT_DIR
 $ git submoudle init
 $ git submoudle update
