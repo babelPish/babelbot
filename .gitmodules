@@ -19,3 +19,6 @@
 [submodule "examples/nlp/chatbot/rasa/rasa-tfboard-demo/rasa-demo"]
 	path = examples/nlp/chatbot/rasa/rasa-tfboard-demo/rasa-demo
 	url = https://github.com/RasaHQ/rasa-demo.git
+[submodule "examples/nlp/chatbot/rasa/rasa-kb/tutorial-knowledge-base"]
+	path = examples/nlp/chatbot/rasa/rasa-kb/tutorial-knowledge-base
+	url = https://github.com/RasaHQ/tutorial-knowledge-base.git

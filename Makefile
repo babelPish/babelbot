@@ -17,6 +17,14 @@ help:
 	@echo "        Download spaCy Lang models."
 	@echo "    download_nltk"
 	@echo "        Download nltk vocab & rc"
+	@echo "    install_grakn"
+	@echo "        Install Grakn"
+	@echo "    start_grakn"
+	@echo "        grakn server start"
+	@echo "    stop_grakn"
+	@echo "        grakn server stop"
+	@echo "    status_grakn"
+	@echo "        grakn server status"
 	@echo "    formatter"
 	@echo "        Apply black formatting to code."
 	@echo "    lint"
@@ -37,6 +45,7 @@ install:
 	# export POETRY_VIRTUALENVS_CREATE=false
 	poetry run python3 -m pip install -U pip
 	poetry install
+	pip install protobuf==3.8.0
 
 install_rasa:
 	pip install rasa
@@ -57,6 +66,22 @@ download_spacy:
 
 download_nltk:
 	poetry run python3 -m nltk.downloader vader_lexicon
+
+install_grakn:
+	sudo apt install software-properties-common apt-transport-https
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 8F3DA4B5E9AEF44C
+	sudo add-apt-repository 'deb [ arch=all ] https://repo.grakn.ai/repository/apt/ trusty main'
+	sudo apt update
+	sudo apt install -y grakn-core-all
+
+start_grakn:
+	grakn server start
+
+stop_grakn:
+	grakn server stop
+
+status_grakn:
+	grakn server status
 
 update:
 	poetry update
